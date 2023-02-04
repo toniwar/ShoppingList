@@ -11,7 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
 
         <Button
@@ -19,6 +19,13 @@
             android:layout_height="wrap_content"
             android:id="@+id/addProductBtn"
             android:text="@string/addToListBtnText"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveListBtn"
+            android:text="@string/saveListBtn"
             />
 
     </LinearLayout>

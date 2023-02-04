@@ -1,12 +1,9 @@
 package com.toniuswar.shoppinglist
 
 import android.content.Context
-import android.view.View.OnClickListener
 import android.widget.LinearLayout
 import android.widget.LinearLayout.*
 import android.widget.TextView
-import android.widget.Toast
-import androidx.appcompat.app.AlertDialog
 
 class Product(private val context: Context, var name: String, var amount: Int, var weight: Float, var units:String, private val mainLayout: LinearLayout, private val productLayout: LinearLayout = LinearLayout(context)) {
     private val amountTV = TextView(context)

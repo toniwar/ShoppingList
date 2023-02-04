@@ -4,4 +4,5 @@
     <string name="downloadNListFromCloud">Загрузить список</string>
     <string name="sendListToCloud">Отправить список</string>
     <string name="addToListBtnText">Добавить</string>
+    <string name="saveListBtn">Сохранить список</string>
 </resources>

@@ -24,9 +24,11 @@ class NewShoppingList() : AppCompatActivity(){
         setContentView(layout.activity_new_shopping_list)
         mainLayout = findViewById(R.id.mainLayout)
         val addBtn:Button = findViewById(R.id.addProductBtn)
+        val saveListBtn: Button = findViewById(R.id.saveListBtn)
         addBtn.setOnClickListener {
           setProduct(this,false)
         }
+        saveListBtn.setOnClickListener { SaveList(this, productList).showDialog() }
     }
 
     private fun setProduct(context: Context, isEdit:Boolean, productName:String = "", amount:Int = 1, weight: Float = 0.0F, weightUnits: String = "кг", strForPositiveBtn:String = "Добавить", ){
