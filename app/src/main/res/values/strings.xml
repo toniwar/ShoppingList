@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Список покупок</string>
+    <string name="createNewList">Создать список</string>
+    <string name="downloadNListFromCloud">Загрузить список</string>
+    <string name="sendListToCloud">Отправить список</string>
+    <string name="addToListBtnText">Добавить</string>
+</resources>
